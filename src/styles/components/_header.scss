@@ -7,11 +7,11 @@ h1 {
       text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black,
     0 0 2px black;
 }
-.header {
+header {
     display: flex;
     height: 70px;
     align-items: center;
-    background-color: red;
+    background-color: rgb(253, 6, 6);
 }
 .logo {
     height: 80px;

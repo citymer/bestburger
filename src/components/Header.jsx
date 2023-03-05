@@ -4,10 +4,10 @@ import logo from '../assets/logoBurger.png'
 const Header = () => {
     return (
         <Fragment>
-            <div className='header'>
+            <header>
               <img src={logo} alt="logo" className='logo' />
              <h1>Best Burger</h1>
-            </div>
+            </header>
         </Fragment>
     );
 };
