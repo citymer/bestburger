@@ -1,0 +1,19 @@
+h1 {
+    font-family: 'Climate Crisis', cursive;
+    font-weight: 100;
+    font-size: 30px;
+    color: rgb(253, 182, 49);
+    margin-left: 4px;
+      text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black,
+    0 0 2px black;
+}
+.header {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    background-color: red;
+}
+.logo {
+    height: 80px;
+    margin-left: 5px;
+}
