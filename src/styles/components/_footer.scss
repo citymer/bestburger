@@ -18,3 +18,14 @@ h3 {
 p{
     font-size: 16px;
 }
+
+@media screen  and (min-width:767px) {
+    footer {
+        display:flex;
+        justify-content: space-around;
+        
+    }
+    main {
+        height: 91vh;
+    }
+}
