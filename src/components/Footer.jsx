@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer>
+        <footer className='show-nav'>
             <div>
                 <h3>Best Burger</h3>
                 <p>Histoire et concept</p>
