@@ -1,17 +1,17 @@
 // breakpoints
 
 @mixin medium {
-    @media screen and (max-width:767px) {
-        @content;
-    }
+  @media screen and (max-width: 767px) {
+    @content;
+  }
 }
 @mixin mediumMin {
-    @media screen and (min-width:767px) {
-        @content;
-    }
+  @media screen and (min-width: 767px) {
+    @content;
+  }
 }
 @mixin largeMin {
-    @media screen and (min-width:992px) {
-        @content;
-    }
+  @media screen and (min-width: 992px) {
+    @content;
+  }
 }

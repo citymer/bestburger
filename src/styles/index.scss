@@ -5,21 +5,19 @@
 @import './utils/mixins';
 
 body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    margin: 0 auto;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin: 0 auto;
 }
 #root {
-    min-height: 680px;
-    position: relative;
-    padding-bottom: 250px;
+  min-height: 680px;
+  position: relative;
+  padding-bottom: 250px;
 }
 main {
-    font-family: 'Montserrat', sans-serif; 
-    @include mediumMin {
-        height: 91vh;
-    }
+  font-family: 'Montserrat', sans-serif;
+  @include mediumMin {
+    height: 91vh;
+  }
 }
-
-  

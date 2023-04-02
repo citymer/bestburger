@@ -1,38 +1,36 @@
 @import '../utils/mixins';
 
 header {
-    display: flex;
-    height: 90px;
-    width: 100%;
-    align-items: center;
-    background-color: rgba(254, 108, 64,0.9);
-    justify-content: center;
+  display: flex;
+  height: 90px;
+  width: 100%;
+  align-items: center;
+  background-color: rgba(254, 108, 64, 0.9);
+  justify-content: center;
 }
 h1 {
-    font-family: 'Climate Crisis', cursive;
-    font-weight: 100;
-    font-size: 26px;
-    color: rgb(255, 255, 255);
-    margin-left: 14px;
-    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black,
+  font-family: 'Climate Crisis', cursive;
+  font-weight: 100;
+  font-size: 26px;
+  color: rgb(255, 255, 255);
+  margin-left: 14px;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black,
     0 0 2px black;
-    @include mediumMin {
-        font-size: 30px;
-    }
-    @include largeMin {
-        font-size: 38px; 
-    }
+  @include mediumMin {
+    font-size: 30px;
+  }
+  @include largeMin {
+    font-size: 38px;
+  }
 }
 .logo {
-    height: 60px;
-    border-radius: 50%;
-    border: 2px black;
-    @include mediumMin {
-        height: 68px;
-    }
-    @include largeMin {
-        height: 75px;
-    }
+  height: 60px;
+  border-radius: 50%;
+  border: 2px black;
+  @include mediumMin {
+    height: 68px;
+  }
+  @include largeMin {
+    height: 75px;
+  }
 }
-
-
