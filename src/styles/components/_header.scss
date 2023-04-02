@@ -1,12 +1,16 @@
 @import '../utils/mixins';
 
 header {
+  position: relative;
   display: flex;
   height: 90px;
   width: 100%;
   align-items: center;
   background-color: rgba(254, 108, 64, 0.9);
   justify-content: center;
+  @include small {
+    justify-content: left;
+  }
 }
 h1 {
   font-family: 'Climate Crisis', cursive;
@@ -22,6 +26,9 @@ h1 {
   @include largeMin {
     font-size: 38px;
   }
+  @include mini {
+    font-size: 20px;
+  }
 }
 .logo {
   height: 60px;
@@ -32,5 +39,19 @@ h1 {
   }
   @include largeMin {
     height: 75px;
+  }
+  @include small {
+    margin-left: 15px;
+  }
+}
+svg {
+  position: absolute;
+  right: 25px;
+  fill: white;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  @include mini {
+    right: 15px;
   }
 }

@@ -5,6 +5,16 @@
     @content;
   }
 }
+@mixin small {
+  @media screen and (max-width: 576px) {
+    @content;
+  }
+}
+@mixin mini {
+  @media screen and (max-width: 395px) {
+    @content;
+  }
+}
 @mixin mediumMin {
   @media screen and (min-width: 767px) {
     @content;
