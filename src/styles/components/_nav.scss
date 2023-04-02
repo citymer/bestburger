@@ -30,6 +30,10 @@
 .navbar_link {
   padding: 0 0.3rem;
   color: inherit;
+  font-size: 20px;
+  &:hover {
+    color: orange;
+  }
   @include medium {
     display: block;
     padding: 1.5rem;

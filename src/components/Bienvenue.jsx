@@ -8,10 +8,13 @@ const Bienvenue = () => {
       <div className="content_text">
         <h2 className="bienvenu">Bienvenue</h2>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit
-          dolorem culpa voluptates est sed sequi dolores, voluptatibus repellat
-          repellendus suscipit fugiat vel inventore animi excepturi tempore
-          doloremque labore nam incidunt.
+          Nous sommes heureux de vous accueillir dans notre univers culinaire où
+          vous pourrez découvrir une variété de hamburgers préparés avec des
+          ingrédients de qualité supérieure et des recettes innovantes. Nous
+          sommes impatients de vous offrir une expérience culinaire inoubliable,
+          avec des hamburgers qui satisferont toutes vos envies. N'hésitez pas à
+          explorer notre menu et à commander votre hamburger préféré dès
+          maintenant !
         </p>
       </div>
     </div>
