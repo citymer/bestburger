@@ -1,3 +1,5 @@
+@import '../utils/mixins';
+
 header {
     display: flex;
     height: 90px;
@@ -14,28 +16,23 @@ h1 {
     margin-left: 14px;
     text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black,
     0 0 2px black;
+    @include mediumMin {
+        font-size: 30px;
+    }
+    @include largeMin {
+        font-size: 38px; 
+    }
 }
 .logo {
     height: 60px;
     border-radius: 50%;
     border: 2px black;
+    @include mediumMin {
+        height: 68px;
+    }
+    @include largeMin {
+        height: 75px;
+    }
 }
 
-@media screen  and (min-width:767px) {
-   h1 {
-    font-size: 30px;
-   }
-   .logo {
-    height: 68px;
-   }
- 
-}
-@media screen  and (min-width:992px) {
-   h1 {
-    font-size: 38px;
-   }
-   .logo {
-    height: 75px;
-   }
- 
-}
+

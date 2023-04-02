@@ -1,3 +1,5 @@
+@import '../utils/mixins';
+
 footer {
     position: absolute;
     text-align: center;
@@ -5,6 +7,10 @@ footer {
     background-color: black;
     bottom: 0;
     padding-bottom: 30px;
+    @include mediumMin {
+        display:flex;
+        justify-content: space-around;
+    }
 }
 h3, p {
     color: white;
@@ -20,13 +26,3 @@ p{
     font-size: 14px;
 }
 
-@media screen  and (min-width:767px) {
-    footer {
-        display:flex;
-        justify-content: space-around;
-        
-    }
-    main {
-        height: 91vh;
-    }
-}
