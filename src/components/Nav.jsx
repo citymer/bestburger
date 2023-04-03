@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import { NavLink } from 'react-router-dom'
 
 const Nav = () => {
   const [showLinks, setShowLinks] = useState(false)
@@ -11,19 +12,19 @@ const Nav = () => {
     <nav className={`navbar ${showLinks ? 'show-nav' : 'hide-nav'}`}>
       <ul className="navbar_links">
         <li className="navbar_item">
-          <a href="/home" className="navbar_link">
+          <NavLink to="/home" className="navbar_link">
             Acceuil
-          </a>
+          </NavLink>
         </li>
         <li className="navbar_item">
-          <a href="/carte" className="navbar_link">
+          <NavLink to="/notre_carte" className="navbar_link">
             Notre carte
-          </a>
+          </NavLink>
         </li>
         <li className="navbar_item">
-          <a href="/Apropos" className="navbar_link">
+          <NavLink to="/Apropos" className="navbar_link">
             A propos
-          </a>
+          </NavLink>
         </li>
       </ul>
       <button className="navbar_burger" onClick={handleShowLinks}>
