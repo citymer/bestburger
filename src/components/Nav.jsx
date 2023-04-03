@@ -12,7 +12,7 @@ const Nav = () => {
     <nav className={`navbar ${showLinks ? 'show-nav' : 'hide-nav'}`}>
       <ul className="navbar_links">
         <li className="navbar_item">
-          <NavLink to="/home" className="navbar_link">
+          <NavLink to="/" className="navbar_link">
             Acceuil
           </NavLink>
         </li>

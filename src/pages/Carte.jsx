@@ -2,6 +2,7 @@ import React, { Fragment } from 'react'
 import Header from '../components/Header'
 import Nav from '../components/Nav'
 import Footer from '../components/Footer'
+import Burger from '../components/Burger'
 
 const Carte = () => {
   return (
@@ -9,6 +10,7 @@ const Carte = () => {
       <Header />
       <main>
         <Nav />
+        <Burger />
       </main>
       <Footer />
     </Fragment>

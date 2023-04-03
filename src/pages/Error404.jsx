@@ -9,6 +9,7 @@ const Error404 = () => {
       <Header />
       <main>
         <Nav />
+        <span> erreur 404</span>
       </main>
       <Footer />
     </div>
