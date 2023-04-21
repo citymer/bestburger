@@ -1,1 +1,1 @@
-.entete{background-color:#ffc702;text-align:center;height:300px}.incontournables{font-size:40px;font-weight:800;padding-top:20px}.icon{height:170px;width:170px}
+.entete{background-color:#ffc702;text-align:center;height:300px;width:100%}.incontournables{font-size:40px;font-weight:800;padding-top:20px}.icon{height:170px;width:170px}.contentBurger{display:flex;justify-content:space-around;background-color:#f0bb02}.burger{width:280px;height:340px}.imgBurger{width:200px;height:200px;border-radius:50%;-o-object-fit:cover;object-fit:cover}

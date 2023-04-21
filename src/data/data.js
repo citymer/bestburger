@@ -1,25 +1,25 @@
-const hamburgers = [
+export const hamburgers = [
   {
     id: 1,
     name: 'Le Classic !',
     price: 5.99,
-    image: '../assets/classic.jpg',
+    image: require('../assets/classic.jpg'),
   },
   {
     id: 2,
     name: 'Le Maxi !',
     price: 7.99,
-    image: '../assets/maxi.jpg',
+    image: require('../assets/maxi.jpg'),
   },
   {
     id: 3,
     name: 'Le Provençal !',
     price: 6.99,
-    image: '../assets/provençal.jpg',
+    image: require('../assets/provençal.jpg'),
   },
 ]
 
-const accompagnement = [
+export const accompagnement = [
   {
     id: 1,
     name: 'coca',
@@ -39,8 +39,3 @@ const accompagnement = [
     image: './assets/nuggets.jpg',
   },
 ]
-
-module.exports = {
-  hamburgers,
-  accompagnement,
-}

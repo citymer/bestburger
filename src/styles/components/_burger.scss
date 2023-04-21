@@ -2,6 +2,7 @@
   background-color: #ffc702;
   text-align: center;
   height: 300px;
+  width: 100%;
 }
 .incontournables {
   font-size: 40px;
@@ -11,4 +12,19 @@
 .icon {
   height: 170px;
   width: 170px;
+}
+.contentBurger {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f0bb02;
+}
+.burger {
+  width: 280px;
+  height: 340px;
+}
+.imgBurger {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
 }

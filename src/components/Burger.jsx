@@ -1,19 +1,25 @@
 import React from 'react'
 
 import icon from '../assets/iconHamburger.png'
-import { hamburgers } from '../data/data'
+import useFetch from '../services/fetchApi'
 
 const Burger = () => {
-  let { price, image } = hamburgers
-  console.log(price)
+  let { hamburger } = useFetch()
+
   return (
     <div className="sectionBurger">
       <div className="entete">
         <p className="incontournables">Les incontournables</p>
         <img src={icon} alt="icone hamburger" className="icon" />
       </div>
-      <div>
-        <img src={image} alt="classic" />
+      <div className="contentBurger">
+        {hamburger.map((burger) => (
+          <div className="burger" key={burger.id}>
+            <img src={burger.image} alt="burger" className="imgBurger" />
+            <h3>{burger.name}</h3>
+            <p>{burger.price}</p>
+          </div>
+        ))}
       </div>
     </div>
   )
