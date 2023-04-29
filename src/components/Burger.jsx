@@ -16,8 +16,10 @@ const Burger = () => {
         {hamburger.map((burger) => (
           <div className="burger" key={burger.id}>
             <img src={burger.image} alt="burger" className="imgBurger" />
-            <h3>{burger.name}</h3>
-            <p>{burger.price}</p>
+            <h4>{burger.name}</h4>
+            <p className="burgerPrice">{burger.price} €</p>
+            <p className="burgerText">{burger.text}</p>
+            <button>Je commande</button>
           </div>
         ))}
       </div>
