@@ -4,21 +4,21 @@ export const hamburgers = [
     name: 'Le Classic !',
     price: 5.99,
     image: require('../assets/classic1.jpg'),
-    text: 'Un goût indémodable !',
+    text: 'Un goût indémodable',
   },
   {
     id: 2,
     name: 'Le Maxi !',
     price: 7.99,
     image: require('../assets/maxi.jpg'),
-    text: 'Pour les grandes faims !',
+    text: 'Pour les grandes faims',
   },
   {
     id: 3,
     name: 'Le Provençal !',
     price: 6.99,
     image: require('../assets/provençal1.jpg'),
-    text: 'Toute la saveur de la Provence !',
+    text: 'Toute la saveur de la Provence',
   },
 ]
 
