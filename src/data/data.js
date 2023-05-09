@@ -25,20 +25,34 @@ export const hamburgers = [
 export const accompagnement = [
   {
     id: 1,
-    name: 'coca',
-    price: 1.5,
-    image: './assets/coca.jpg',
+    name: 'frite',
+    price: 3.25,
+    image: require('../assets/frite.jpg'),
   },
   {
     id: 2,
-    name: 'frite',
-    price: 3.25,
-    image: './assets/frite.jpg',
+    name: 'nuggets',
+    price: 3.99,
+    image: require('../assets/nuggets.jpg'),
+  },
+]
+export const boisson = [
+  {
+    id: 1,
+    name: 'coca',
+    price: 1.5,
+    image: require('../assets/coca.jpg'),
+  },
+  {
+    id: 2,
+    name: 'ice tea',
+    price: 1.5,
+    image: require('../assets/lipton.jpg'),
   },
   {
     id: 3,
-    name: 'nuggets',
-    price: '3.99',
-    image: './assets/nuggets.jpg',
+    name: 'oasis',
+    price: 1.5,
+    image: require('../assets/oasis.jpg'),
   },
 ]

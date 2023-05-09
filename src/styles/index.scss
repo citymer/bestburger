@@ -12,13 +12,9 @@ body {
   margin: 0 auto;
 }
 #root {
-  min-height: 680px;
+  height: 100%;
   position: relative;
-  padding-bottom: 250px;
 }
 main {
   font-family: 'Montserrat', sans-serif;
-  @include mediumMin {
-    height: 91vh;
-  }
 }
