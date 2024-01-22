@@ -24,13 +24,13 @@ export const hamburger = [
 
 export const accompagnement = [
   {
-    id: 1,
+    id: 11,
     name: 'frite',
     price: 3.25,
     image: require('../assets/frite.jpg'),
   },
   {
-    id: 2,
+    id: 12,
     name: 'nuggets',
     price: 3.99,
     image: require('../assets/nuggets.jpg'),
@@ -38,19 +38,19 @@ export const accompagnement = [
 ]
 export const boisson = [
   {
-    id: 1,
+    id: 21,
     name: 'coca',
     price: 1.45,
     image: require('../assets/coca.jpg'),
   },
   {
-    id: 2,
+    id: 22,
     name: 'ice tea',
     price: 1.45,
     image: require('../assets/lipton.jpg'),
   },
   {
-    id: 3,
+    id: 23,
     name: 'oasis',
     price: 1.45,
     image: require('../assets/oasis.jpg'),
