@@ -1,11 +1,11 @@
-import { hamburgers } from '../data/data'
+import { hamburger } from '../data/data'
 import { accompagnement } from '../data/data'
 import { boisson } from '../data/data'
 
 const useFetch = () => {
-  const hamburger = hamburgers
+  const hamburgers = hamburger
   const accompagnements = accompagnement
   const boissons = boisson
-  return { hamburger, accompagnements, boissons }
+  return { hamburgers, accompagnements, boissons }
 }
 export default useFetch

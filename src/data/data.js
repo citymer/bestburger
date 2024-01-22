@@ -1,4 +1,4 @@
-export const hamburgers = [
+export const hamburger = [
   {
     id: 1,
     name: 'Le Classic !',
@@ -40,19 +40,19 @@ export const boisson = [
   {
     id: 1,
     name: 'coca',
-    price: 1.5,
+    price: 1.45,
     image: require('../assets/coca.jpg'),
   },
   {
     id: 2,
     name: 'ice tea',
-    price: 1.5,
+    price: 1.45,
     image: require('../assets/lipton.jpg'),
   },
   {
     id: 3,
     name: 'oasis',
-    price: 1.5,
+    price: 1.45,
     image: require('../assets/oasis.jpg'),
   },
 ]

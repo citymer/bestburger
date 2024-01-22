@@ -5,7 +5,7 @@ import useFetch from '../services/fetchApi'
 import frites from '../assets/frites.png'
 
 const Burger = () => {
-  let { hamburger, boissons, accompagnements } = useFetch()
+  let { hamburgers, boissons, accompagnements } = useFetch()
 
   return (
     <div className="sectionBurger">
@@ -14,7 +14,7 @@ const Burger = () => {
         <img src={icon} alt="icone hamburger" className="icon" />
       </div>
       <div className="contentBurger">
-        {hamburger.map((burger) => (
+        {hamburgers.map((burger) => (
           <div className="burger" key={burger.id}>
             <img src={burger.image} alt="burger" className="imgBurger" />
             <h4>{burger.name}</h4>
