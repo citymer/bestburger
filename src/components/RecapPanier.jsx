@@ -4,6 +4,7 @@ const RecapPanier = () => {
   return (
     <div className="sectionPanier">
       <h2 className="textPanier">Panier</h2>
+      <p className="textTotal">Total =</p>
     </div>
   )
 }
